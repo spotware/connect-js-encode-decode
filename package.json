@@ -1,0 +1,23 @@
+{
+  "name": "connect-js-encode-decode",
+  "version": "1.0.0",
+  "description": "Spotware Connect encoder/decoder for binary messages",
+  "keywords": [
+    "spotware",
+    "connect",
+    "ctratder"
+  ],
+  "author": "Spotware Services <connect@spotware.com>",
+  "private": true,
+  "scripts": {
+    "test": "istanbul cover --include-all-sources node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=test/support/jasmine.json"
+  },
+  "dependencies": {
+    "buffer": "4.5.1"
+  },
+  "devDependencies": {
+    "connect-protobuf-messages": "spotware/connect-protobuf-messages",
+    "istanbul": "0.4.2",
+    "jasmine": "2.4.1"
+  }
+}
