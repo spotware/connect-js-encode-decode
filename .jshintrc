@@ -1,4 +1,5 @@
 {
+  "maxcomplexity": 7,
   "globalstrict": true,
   "jasmine": true,
   "node": true
